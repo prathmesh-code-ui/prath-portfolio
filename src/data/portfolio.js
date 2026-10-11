@@ -1,0 +1,104 @@
+const portfolio = {
+  personalInfo: {
+    name: 'Prathmesh Sonavane',
+    firstName: 'Prathmesh',
+    title: 'Java Full Stack Developer',
+    location: 'Silvassa, India',
+    email: 'prathmeshsonawane2004@gmail.com',
+    phone: '+91 8154085269',
+    phoneHref: '+918154085269',
+    linkedin: 'https://linkedin.com/in/prathmesh-sonavane-000771314',
+    github: 'https://github.com/prathmesh-code-ui',
+    resumeUrl: '/resume.pdf',
+    resumeFileName: 'Prathmesh-Sonavane-Resume.pdf',
+  },
+  navigation: [
+    { label: 'About', href: '#about' },
+    { label: 'Skills', href: '#skills' },
+    { label: 'Experience', href: '#experience' },
+    { label: 'Work', href: '#projects' },
+    { label: 'Contact', href: '#contact' },
+  ],
+  hero: {
+    greeting: "Hello, I'm",
+    headline: 'I build practical, end-to-end web experiences.',
+    description: 'Java Full Stack Developer focused on thoughtful interfaces, reliable backend services, and clean software that solves real problems.',
+    primaryCta: 'View selected work',
+    secondaryCta: 'Download résumé',
+    availability: 'Open to developer opportunities',
+  },
+  about: {
+    eyebrow: 'A little about me',
+    heading: 'Building software that feels clear and useful.',
+    paragraphs: [
+      'I am a Java Full Stack Developer with six months of hands-on experience building web applications and end-to-end software solutions at ThunderCube Pvt. Ltd.',
+      'My work spans Java, Spring Boot, React.js, Tailwind CSS, MySQL, REST APIs, and Git. I enjoy connecting a considered user interface to dependable backend services, then refining the details through testing and debugging.',
+    ],
+    focus: ['Responsive interfaces', 'RESTful services', 'Clean, maintainable code'],
+  },
+  sections: {
+    skills: { eyebrow: 'Technical toolkit', heading: 'Tools I use to get things done.', description: 'A practical stack for building responsive, maintainable full-stack applications.' },
+    experience: { eyebrow: 'Where I’ve contributed', heading: 'Hands-on experience, end to end.', projectLabel: 'Project' },
+    projects: { eyebrow: 'Selected work', heading: 'A closer look at what I’ve built.', featuredLabel: 'Featured project' },
+    education: { eyebrow: 'Academic foundation', heading: 'Education.' },
+    certifications: { eyebrow: 'Continued learning', heading: 'Certifications.' },
+  },
+  skills: [
+    { category: 'Programming', items: ['Java', 'JavaScript', 'SQL'] },
+    { category: 'Frontend', items: ['React.js', 'Tailwind CSS', 'HTML5', 'CSS3'] },
+    { category: 'Backend', items: ['Spring Boot', 'Spring MVC', 'REST APIs'] },
+    { category: 'Core concepts', items: ['Object-Oriented Programming (OOP)', 'Data Structures and Algorithms (DSA)', 'MVC Architecture'] },
+    { category: 'Database', items: ['MySQL'] },
+    { category: 'Tools', items: ['Git', 'GitHub', 'Postman', 'VS Code', 'Eclipse IDE'] },
+  ],
+  experience: [
+    {
+      role: 'Java Full Stack Developer Intern',
+      company: 'ThunderCube Pvt. Ltd.',
+      duration: '6 months',
+      project: 'Money Manager',
+      technologies: ['Java', 'Spring Boot', 'React.js', 'Tailwind CSS', 'MySQL', 'Git'],
+      responsibilities: [
+        'Developed full-stack web applications using Java, Spring Boot, and React.js.',
+        'Built REST APIs and integrated frontend components with backend services.',
+        'Created responsive user interfaces using Tailwind CSS.',
+        'Performed database operations and query optimization using MySQL.',
+        'Collaborated with the team using Git and participated in testing and debugging.',
+      ],
+    },
+  ],
+  projects: [
+    {
+      name: 'Money Manager',
+      category: 'Personal Finance Management System',
+      description: 'A full-stack personal finance management application that helps users track income, expenses, savings, and spending patterns in one focused workspace.',
+      features: [
+        'Track income and expenses',
+        'Manage financial transactions with CRUD operations',
+        'View savings and financial summaries',
+        'Filter and search financial records',
+        'Review spending insights to monitor expenses',
+      ],
+      stack: ['Java', 'Spring Boot', 'React.js', 'MySQL', 'Tailwind CSS', 'REST APIs'],
+      githubUrl: null,
+      liveUrl: null,
+    },
+  ],
+  education: [
+    { degree: 'B.E. in Computer Engineering', institution: 'Government Engineering College, Daman', duration: 'September 2022 – May 2026', resultLabel: 'CGPA', result: '7.37' },
+  ],
+  certifications: [
+    { name: 'Java Full Stack Certification', issuer: 'Java By Kiran Academy' },
+    { name: 'React JS Intern', issuer: 'INFOLABZ IT SERVICES PVT. LTD.' },
+    { name: 'IBM SkillsBuild Project Based Learning Program', issuer: 'IBM SkillsBuild' },
+  ],
+  contact: {
+    eyebrow: 'Let’s connect',
+    heading: 'Have an opportunity in mind?',
+    description: 'I’m always glad to talk about software, collaboration, and the next meaningful problem to solve. The quickest way to reach me is email.',
+    emailCta: 'Start a conversation',
+  },
+  footer: 'Designed and built by Prathmesh Sonavane.',
+}
+
+export default portfolio
