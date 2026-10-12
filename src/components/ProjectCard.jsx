@@ -4,7 +4,8 @@ import { GitHubIcon } from './SocialIcons'
 export default function ProjectCard({ project, featuredLabel }) {
   return (
     <article className="project-card">
-      <div className="project-visual" aria-hidden="true">
+      <div className="project-visual">
+        {project.imageUrl && (project.liveUrl ? <a className="project-image-link" href={project.liveUrl} target="_blank" rel="noreferrer" aria-label={`Open ${project.name} live project`}><img className="project-image" src={project.imageUrl} alt={project.imageAlt || `${project.name} project preview`} /></a> : <img className="project-image" src={project.imageUrl} alt={project.imageAlt || `${project.name} project preview`} />)}
         <div className="screen-top"><span /><span /><span /></div>
         <div className="screen-body">
           <div className="screen-nav"><b>MM</b><i /><i /><i /></div>

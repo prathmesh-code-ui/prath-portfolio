@@ -80,8 +80,10 @@ const portfolio = {
         'Review spending insights to monitor expenses',
       ],
       stack: ['Java', 'Spring Boot', 'React.js', 'MySQL', 'Tailwind CSS', 'REST APIs'],
+      imageUrl: '/images/expense-manager-portfolio.jpg',
+      imageAlt: 'Expense Manager application screens showing the dashboard, authentication, categories, income, expenses, and transaction filters',
       githubUrl: null,
-      liveUrl: null,
+      liveUrl: 'https://thriving-trifle-007c3c.netlify.app',
     },
   ],
   education: [
